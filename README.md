@@ -17,6 +17,17 @@ Firmware for the RUBRIColor
   
        The 3 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
 
+## Configuration S1.105_LD1.21_QT2.69 Prototype for test purposes
+1.	Adds:
+	Cool-down stage for SHG temperature heaters. Based on a timer that calculates the time from current servo on temperature to 15C. 
+	Keeps the channel servo enabled until the timer expires. 
+	NOTE: ambient temperature will probably not be 15C so we might want to adjust this target
+	This feature is only available for SHG temperature controls that have a non-zero slew rate enabled and a heater type selected in the Plant Thermistor settings.
+2.	Adds:
+	"#ADJCHAN" 1 API Command which unlocks access to all temperature channel settings from the single channel summary page.
+	Power Cycling the device makes this access go away.
+3.	Fixes the temperature servo current readout for diode channels to display negative current. 	
+
 ## Configuration S1.104_LD1.20_QT2.69 Prototype for test purposes
 1.	Adds:
 	Interlock warning functionality
