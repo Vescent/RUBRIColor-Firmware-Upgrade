@@ -17,6 +17,10 @@ Firmware for the RUBRIColor
   
        The 3 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
 
+## Configuration S1.106_LD1.21_QT2.69 Prototype for test purposes
+1.  Fixes bug that would leave the SHG temperature control in an on state after the cooldown stage.
+2.  Fixes inoperative GUI feedback when using Serial API commands
+
 ## Configuration S1.105_LD1.21_QT2.69 Prototype for test purposes
 1.	Adds:
 	Cool-down stage for SHG temperature heaters. Based on a timer that calculates the time from current servo on temperature to 15C. 
