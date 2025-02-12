@@ -22,6 +22,7 @@ Firmware for the RUBRIColor
 2.  Fixes bug that would change the frequency number for the color module label to 000 when the laser was in an on state
 3.  Changes the Cool-down indicator from a flashing message on each channel's SHG readout to having the main control button flash "COOL DOWN" 
     until all channels have finished their cool down sequence.
+4.  Adds GUI warning indicators for temperature controller out of range and laser temperature above limit.	
 
 ## Configuration S1.106_LD1.21_QT2.69 Prototype for test purposes
 1.  Fixes bug that would leave the SHG temperature control in an on state after the cooldown stage.
