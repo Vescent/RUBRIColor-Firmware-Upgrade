@@ -17,6 +17,12 @@ Firmware for the RUBRIColor
   
        The 3 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
 
+## Configuration S1.107_LD1.21_QT2.69 Prototype for test purposes
+1.  Fixes bug that would leave some SHG temperature controls in an on state after the cooldown stage.
+2.  Fixes bug that would change the frequency number for the color module label to 000 when the laser was in an on state
+3.  Changes the Cool-down indicator from a flashing message on each channel's SHG readout to having the main control button flash "COOL DOWN" 
+    until all channels have finished their cool down sequence.
+
 ## Configuration S1.106_LD1.21_QT2.69 Prototype for test purposes
 1.  Fixes bug that would leave the SHG temperature control in an on state after the cooldown stage.
 2.  Fixes inoperative GUI feedback when using Serial API commands
