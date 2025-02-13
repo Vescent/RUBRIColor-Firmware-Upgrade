@@ -17,6 +17,10 @@ Firmware for the RUBRIColor
   
        The 3 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
 
+## Configuration S1.108_LD1.21_QT2.69 Prototype for test purposes
+1.  Fixes Missing Saved laser current setpoint and diode temperature setpoints on startup
+2.  Fixes momentary white text color when switching between settings and main screen while in a standby or laser mode
+
 ## Configuration S1.107_LD1.21_QT2.69 Prototype for test purposes
 1.  Fixes bug that would leave some SHG temperature controls in an on state after the cooldown stage.
 2.  Fixes bug that would change the frequency number for the color module label to 000 when the laser was in an on state
