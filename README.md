@@ -17,6 +17,12 @@ Firmware for the RUBRIColor
   
        The 3 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
 
+## Configuration S1.110_LD1.21_QT2.69 Prototype for test purposes
+1.  Blocks access to Temperature and Current control on an individual channel basis
+2.  Changes API commands to use "S" for SHG and "D" for Diode prefixes 
+    Using the following format:
+    [S/D][COMMAND][channel#][argument]
+
 ## Configuration S1.109_LD1.21_QT2.69 Prototype for test purposes
 1.  Minor adjustments to the layout of the single channel temperature summary page
 
