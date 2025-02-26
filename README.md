@@ -17,6 +17,10 @@ Firmware for the RUBRIColor
   
        The 3 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
 
+## Configuration S1.112_LD1.21_QT2.70 Prototype for test purposes
+1.  Blocks addess to diode setpoint readouts so diode setpoints will need to be adjusted through the API
+2.  Adds Internal Temperature Safety Shutdown and Message presentation
+
 ## Configuration S1.111_LD1.21_QT2.69 Prototype for test purposes
 1.  Changes configuration of Threshold Detection Input pin to Input Pull Down
 2.  Blocks SHG API commands to Non HXXX and XXX modules which do not use the SSG channel
