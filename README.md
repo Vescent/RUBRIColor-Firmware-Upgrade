@@ -17,6 +17,9 @@ Firmware for the RUBRIColor
   
        The 3 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
 
+## Configuration S1.113_LD1.21_QT2.71 Prototype for test purposes
+1.  Fixes some API issues with setting color module type and other factory available settings commands.
+
 ## Configuration S1.112_LD1.21_QT2.70 Prototype for test purposes
 1.  Blocks addess to diode setpoint readouts so diode setpoints will need to be adjusted through the API
 2.  Adds Internal Temperature Safety Shutdown and Message presentation
