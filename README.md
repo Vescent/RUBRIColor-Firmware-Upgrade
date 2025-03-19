@@ -19,10 +19,11 @@ Firmware for the RUBRIColor
 
 ## Configuration S1.114_LD1.25_QT2.71 Prototype for test purposes
 1.  Adds No Temperature Control color modules to the list of acceptable module types
-2.  Changes API commands for chosing and labeling Color Modules
-	To set the module type: #RCOLORMODULE[channel] [49382] [# temp controls] [prefix + wavelength]
-    To read the module type: #RCOLORMODULE? [channel]
-    ### Note: prefix is limited to 3 characters and no space between the prefix and wavelength
+2.  Changes API commands for chosing and labeling Color Modules.
+  ### USE:
+	To Set     #RCOLORMODULE[channel] [49382] [# temp controls] [prefix + wavelength]
+ 	To Read    #RCOLORMODULE? [channel]
+    	Note: prefix is limited to 3 characters and no space between the prefix and wavelength
               Number of temp controls is 0, 1, or 2
               Example: Heterodyne SHG with a 525nm wavelength for channel 1
               Use this command: #RCOLORMODULE 1 49382 2 SHG525
