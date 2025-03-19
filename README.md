@@ -16,6 +16,10 @@ Firmware for the RUBRIColor
        hard drive.
   
        The 3 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
+       
+## Configuration S1.115_LD1.25_QT2.71 Prototype for test purposes
+1.  Fixes lockup when trying to access single channel summary screen for SHG channels when less than 4 color modules are installed
+
 
 ## Configuration S1.114_LD1.25_QT2.71 Prototype for test purposes
 1.  Adds No Temperature Control color modules to the list of acceptable module types
