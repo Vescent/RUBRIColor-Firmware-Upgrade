@@ -21,7 +21,7 @@ Firmware for the RUBRIColor
 1.  Adds No Temperature Control color modules to the list of acceptable module types
 2.  Changes API commands for chosing and labeling Color Modules.
   ### USE:
-	To Set     #RCOLORMODULE[channel] [49382] [# temp controls] [prefix + wavelength]
+	To Set     #RCOLORMODULE [channel] [49382] [# temp controls] [prefix + wavelength]
  	To Read    #RCOLORMODULE? [channel]
     	Note: prefix is limited to 3 characters and no space between the prefix and wavelength
               Number of temp controls is 0, 1, or 2
