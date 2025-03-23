@@ -17,6 +17,9 @@ Firmware for the RUBRIColor
   
        The 3 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
        
+## Configuration S1.116_LD1.25_QT2.71 Prototype for test purposes
+1.  Disables automatic system shutdown when internal temperature exceeds the 65C threshold 
+
 ## Configuration S1.115_LD1.25_QT2.71 Prototype for test purposes
 1.  Fixes lockup when trying to access single channel summary screen for SHG channels when less than 4 color modules are installed
 
