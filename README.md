@@ -19,7 +19,7 @@ Firmware for the RUBRIColor
        
 ## Configuration S1.117_LD1.25_QT2.71 Prototype for test purposes
 1.  Fixes Color Module Labeling so that a prefix only can be configured without a wavelength
-    (Simply omit the wavelenght argument when using the #RCOLORMODULE command.)
+    (Simply omit the wavelength argument when using the #RCOLORMODULE command.)
 2.  Fixes missing thermistor type dropdown menu from Plant Settings screen
 3.  Fixes NV saving of thermistor settings so that they persist through a power cycle
 4.  Fixes I2C error reset if the touch screen is touched too soon after power on
