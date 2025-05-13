@@ -17,9 +17,17 @@ Firmware for the RUBRIColor
   
        The 3 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
        
-## Configuration S1.117_LD1.25_QT2.71 Prototype for test purposes
+## Configuration S1.118_LD1.24_QT2.72 Prototype for test purposes
+1.  Fixes 24V Power Good dropout error messaging and error handling
+2.  Fixes messed up Interlock error message handling if the interlock is opened 
+    while in the general settings menu
+3.  Revises the SHG channels' output current monitoring to re-zero when TEC / Heater current is in the off state.
+4.  Fixes backlight and volume numeric level updating so that it responds to API setting
+5.  Adds the System Controller firmware build configuration to the response for a #DEVICES API command
+
+## Configuration S1.117_LD1.23_QT2.71 Prototype for test purposes
 1.  Fixes Color Module Labeling so that a prefix only can be configured without a wavelength
-    (Simply omit the wavelenght argument when using the #RCOLORMODULE command.)
+    (Simply omit the wavelength argument when using the #RCOLORMODULE command.)
 2.  Fixes missing thermistor type dropdown menu from Plant Settings screen
 3.  Fixes NV saving of thermistor settings so that they persist through a power cycle
 4.  Fixes I2C error reset if the touch screen is touched too soon after power on
@@ -27,14 +35,14 @@ Firmware for the RUBRIColor
 6.  Some improvements to serial API for factory settings. Still needs more work. 
 7.  Adds the system controller build configuration to the return from the #DEVICES API command
 
-## Configuration S1.116_LD1.25_QT2.71 Prototype for test purposes
+## Configuration S1.116_LD1.23_QT2.71 Prototype for test purposes
 1.  Disables automatic system shutdown when internal temperature exceeds the 65C threshold 
 
-## Configuration S1.115_LD1.25_QT2.71 Prototype for test purposes
+## Configuration S1.115_LD1.23_QT2.71 Prototype for test purposes
 1.  Fixes lockup when trying to access single channel summary screen for SHG channels when less than 4 color modules are installed
 
 
-## Configuration S1.114_LD1.25_QT2.71 Prototype for test purposes
+## Configuration S1.114_LD1.23_QT2.71 Prototype for test purposes
 1.  Adds No Temperature Control color modules to the list of acceptable module types
 2.  Changes API commands for chosing and labeling Color Modules.
   ### USE:
