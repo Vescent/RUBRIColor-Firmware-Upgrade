@@ -17,6 +17,14 @@ Firmware for the RUBRIColor
   
        The 3 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
        
+## Configuration S1.119_LD1.24_QT2.72 Prototype for test purposes
+1.  Adds support for original color module naming scheme so that units that are already in the customer's hands
+    can be upgraded without needing the color modules to be renamed.
+2.  Fixes issue determining temperature stability when one or more color modules are designated as HT NOTEMPERATURE models
+3.  Fixes the failure to re-establish STANDBY stability after an interlock is cleared without needing to return to SYSTEM OFF
+4.  Removes ghost querying of SHG channel temperature errors and Diode temperature errors when ONETEMP or NOTEMP color
+    modules are configured.
+
 ## Configuration S1.118_LD1.24_QT2.72 Prototype for test purposes
 1.  Fixes 24V Power Good dropout error messaging and error handling
 2.  Fixes messed up Interlock error message handling if the interlock is opened 
