@@ -31,7 +31,7 @@ Firmware for the RUBRIColor
 	Fixes ability to set the device serial number and some handling of color module type assignments.
 	Fixes missing NO Temperature Control module identification on the touch screen
 	### Uses the module identification API setting command outlined in the Configuration S1.114_LD1.23_QT2.71 below
-	Where setting number of temperature controls to 0 indicates a non LD board in the module (channel)
+	Where setting number of temperature controls to 0 indicates a non LD board in that module (channel)
 	
 ## Configuration S1.119_LD1.24_QT2.72 Prototype for test purposes
 1.  Adds support for original color module naming scheme so that units that are already in the customer's hands
