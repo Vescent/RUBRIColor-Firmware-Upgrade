@@ -17,6 +17,22 @@ Firmware for the RUBRIColor
   
        The 3 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
        
+## Configuration S1.123_LD1.25_QT2.73 Prototype for test purposes
+1.  LD Version 1.25 Implements fixes to LTC2440 high resolution temperature error ADC that have been added 
+	to 90-00028 firmware after unlock events were observed on the RUBRIComb
+2.  QT Version 2.73
+	Adds case 38 to debug output for CMD_ReadTemp() to return the raw temperature ADC value
+	Changes SPI D MOSI pin from pull up to pull down to help avoid sporatic LTC2440 timing changes.	
+3.  S Version 1.123
+	Includes support for #GRAPHDATAEN API fast data logging through serial port.
+	Allows Setting SHG temperature setpoints on both the channel settings menu and the single channel summary page. 	
+	Improve SHG cooldown performance
+	Add support for *CLS API command so that on screen messages can be cleared without touching the touchscreen.
+	Fixes ability to set the device serial number and some handling of color module type assignments.
+	Fixes missing NO Temperature Control module identification on the touch screen
+	### Uses the module identification API setting command outlined in the Configuration S1.114_LD1.23_QT2.71 below
+	Where setting number of temperature controls to 0 indicates a non LD board in the module (channel)
+	
 ## Configuration S1.119_LD1.24_QT2.72 Prototype for test purposes
 1.  Adds support for original color module naming scheme so that units that are already in the customer's hands
     can be upgraded without needing the color modules to be renamed.
