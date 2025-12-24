@@ -16,6 +16,9 @@ Firmware for the RUBRIColor
        hard drive.
   
        The 3 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
+
+## Configuration S1.124_LD1.25_QT2.73 Prototype for test purposes
+1.  Modifies System Controller firmware to allow 0 LD board configurations 
        
 ## Configuration S1.123_LD1.25_QT2.73 Prototype for test purposes
 1.  LD Version 1.25 Implements fixes to LTC2440 high resolution temperature error ADC that have been added 
