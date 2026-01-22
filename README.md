@@ -17,6 +17,9 @@ Firmware for the RUBRIColor
   
        The 3 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
 
+## Configuration S1.125_LD1.25_QT2.73 Prototype for test purposes
+1.  Fixes a bug introduced in S1.123 which caused problems configuring diode only color modules.
+
 ## Configuration S1.124_LD1.25_QT2.73 Prototype for test purposes
 1.  Modifies System Controller firmware to allow 0 LD board configurations 
        
