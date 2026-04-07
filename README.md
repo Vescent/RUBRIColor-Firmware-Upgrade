@@ -17,6 +17,11 @@ Firmware for the RUBRIColor
   
        The 3 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
 
+## Configuration S1.127_LD1.25_QT2.73 Prototype for test purposes
+1.  Fixes module naming compatibility when upgrading from Pre-S1.114 system controller firmware.
+2.  Fixes API incompatibility problems with Pre-S1.114 system controller firmware systems
+3.	Makes some improvements to I2C communication protocols to try and minimize the occurrences of Communication Error resets and error messages.
+
 ## Configuration S1.126_LD1.25_QT2.73 Prototype for test purposes
 1.  A couple more fixes to the color module naming process.
 
@@ -31,7 +36,7 @@ Firmware for the RUBRIColor
 	to 90-00028 firmware after unlock events were observed on the RUBRIComb
 2.  QT Version 2.73
 	Adds case 38 to debug output for CMD_ReadTemp() to return the raw temperature ADC value
-	Changes SPI D MOSI pin from pull up to pull down to help avoid sporatic LTC2440 timing changes.	
+	Changes SPI D MOSI pin from pull up to pull down to help avoid sporadic LTC2440 timing changes.	
 3.  S Version 1.123
 	Includes support for #GRAPHDATAEN API fast data logging through serial port.
 	Allows Setting SHG temperature setpoints on both the channel settings menu and the single channel summary page. 	
@@ -60,7 +65,7 @@ Firmware for the RUBRIColor
 
 ## Configuration S1.117_LD1.23_QT2.71 Prototype for test purposes
 1.  Fixes Color Module Labeling so that a prefix only can be configured without a wavelength
-    (Simply omit the wavelength argument when using the #RCOLORMODULE command.)
+    (Simply omit the wavelength argument when using the command.)
 2.  Fixes missing thermistor type dropdown menu from Plant Settings screen
 3.  Fixes NV saving of thermistor settings so that they persist through a power cycle
 4.  Fixes I2C error reset if the touch screen is touched too soon after power on
@@ -74,18 +79,10 @@ Firmware for the RUBRIColor
 ## Configuration S1.115_LD1.23_QT2.71 Prototype for test purposes
 1.  Fixes lockup when trying to access single channel summary screen for SHG channels when less than 4 color modules are installed
 
-
 ## Configuration S1.114_LD1.23_QT2.71 Prototype for test purposes
 1.  Adds No Temperature Control color modules to the list of acceptable module types
-2.  Changes API commands for chosing and labeling Color Modules.
-  ### USE:
-	To Set     #RCOLORMODULE [channel] [49382] [# temp controls] [prefix + wavelength]
- 	To Read    #RCOLORMODULE? [channel]
-    	Note: prefix is limited to 3 characters and no space between the prefix and wavelength
-              Number of temp controls is 0, 1, or 2
-              Example: Heterodyne SHG with a 525nm wavelength for channel 1
-              Use this command: #RCOLORMODULE 1 49382 2 SHG525
-              
+2.  Changes API commands for choosing and labeling Color Modules.
+               
               
 ## Configuration S1.113_LD1.21_QT2.71 Prototype for test purposes
 1.  Fixes some API issues with setting color module type and other factory available settings commands.
@@ -129,7 +126,7 @@ Firmware for the RUBRIColor
 	NOTE: ambient temperature will probably not be 15C so we might want to adjust this target
 	This feature is only available for SHG temperature controls that have a non-zero slew rate enabled and a heater type selected in the Plant Thermistor settings.
 2.	Adds:
-	"#ADJCHAN" 1 API Command which unlocks access to all temperature channel settings from the single channel summary page.
+	Command which unlocks access to all temperature channel settings from the single channel summary page.
 	Power Cycling the device makes this access go away.
 3.	Fixes the temperature servo current readout for diode channels to display negative current. 	
 
