@@ -17,6 +17,9 @@ Firmware for the RUBRIColor
   
        The 3 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
 
+## Configuration S1.128_LD1.25_QT2.73 Prototype for test purposes
+1.  Additional fixes to I2C communication error handling.
+
 ## Configuration S1.127_LD1.25_QT2.73 Prototype for test purposes
 1.  Fixes module naming compatibility when upgrading from Pre-S1.114 system controller firmware.
 2.  Fixes API incompatibility problems with Pre-S1.114 system controller firmware systems
