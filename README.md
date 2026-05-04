@@ -17,6 +17,11 @@ Firmware for the RUBRIColor
   
        The 3 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
 
+## Configuration S1.130_LD1.25_QT2.73 Prototype for test purposes
+1. Fixes a bug introduced in S1.129 that failed to update measured temperature and temperature error 
+   data from diode only module configurations after upgrading models originally loaded with 
+   Pre-S1.114_LD1.23_QT2.71 configurations.
+
 ## Configuration S1.129_LD1.25_QT2.73 Prototype for test purposes
 1. Fixes a bug introduced in S1.128 that messed up empty bay front panel presentation.
 
