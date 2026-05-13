@@ -17,6 +17,10 @@ Firmware for the RUBRIColor
   
        The 3 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
 
+## Configuration S1.132_LD1.25_QT2.73 Prototype for test purposes
+1. More fixes to the SHG cool-down mode
+2. Locks access to SHG temperature setpoint readouts while cool down is in progress to prevent corruption of the actual setpoint value.
+
 ## Configuration S1.131_LD1.25_QT2.73 Prototype for test purposes
 1. Fixes momentary rapid drop in SHG temperature before entering cool-down mode when choosing SYSTEM OFF from STANDBY.
 2. Fixes INTERLOCK warning button so that rapidly and repeatedly pressing the button will not bypass the warning and display the mode selector dropdown.
