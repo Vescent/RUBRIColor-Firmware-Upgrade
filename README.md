@@ -17,6 +17,11 @@ Firmware for the RUBRIColor
   
        The 3 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
 
+## Configuration S1.135_LD1.25_QT2.73 Prototype for test purposes
+1. Improves I2C inter-board communication.
+2. Fixes Non-functional RUBRIComb Input indicator for 0 LD board configurations.
+3. Fixes factory serial number API command for 0 LD board configurations.
+
 ## Configuration S1.133_LD1.25_QT2.73 Prototype for test purposes
 1. More fixes to the SHG cool-down mode. Fixes random failure to enter cool-down on STANDBY to SYSTEM OFF transition
 2. Fixes failure to restore SHG Setpoint readouts to editable state on completion of cool-down.
